@@ -1,0 +1,61 @@
+@import url(reset.css);
+
+div {
+	color: red;
+}
+
+a {
+	color: orange ;
+}
+
+.text {
+	color: yellow;
+}
+
+#donbas,
+#tribe
+{
+	color: green;
+}
+
+div.combinations {
+	color: rgb(0, 170, 255);
+}
+
+.lesson.text {
+	color: blue;
+}
+
+.lesson,
+.text {
+	color: darkolivegreen;
+}
+
+.text p {
+	color: rgb(225, 130, 238);
+}
+
+.text .lesson {
+	color: rgb(149, 0, 255);
+}
+
+.star * {
+	color: rgb(8, 84, 84);
+}
+
+.point > p {
+	color: aquamarine;
+}
+
+.circle ~ p {
+	color: burlywood;
+}
+
+.cube + p {
+	color: darkgreen;
+}
+
+[class*="__container"] {
+	color: rgb(82, 2, 2);
+}
+
