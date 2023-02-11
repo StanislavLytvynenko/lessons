@@ -1,0 +1,125 @@
+@import url("reset.css");
+/* ====================== ШРИФТИ =============================== */
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,500,700&display=swap);
+
+@font-face {
+	font-family: 'CircularStd';
+	src: url('../fonts/CircularStd-Bold.woff2') format('woff2'), url('../fonts/CircularStd-Bold.woff') format('woff');
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'CircularStd';
+	src: url('../fonts/CircularStd-Book.woff2') format('woff2'), url('../fonts/CircularStd-Book.woff') format('woff');
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+
+header{
+	font-family: "Josefin Sans", sans-serif;
+}
+
+main{
+	font-family: "Oswald", sans-serif;
+}
+
+footer{
+	font-family: "CircularStd", sans-serif;
+	font-weight: 500;
+}
+
+.title{
+	color: rgba(237, 23, 23, 0.623);
+	font-size: 30px;
+}
+
+.style01{
+	font-style: normal;
+}
+.style02{
+	font-style: italic;
+}
+.style03{
+	font-style: oblique;
+}
+
+.saturation01{
+	font-weight: 100;
+}
+.saturation02{
+	font-weight: 300;
+}
+.saturation03{
+	font-weight: 400;
+}
+.saturation04{
+	font-weight: 500;
+}
+.saturation05{
+	font-weight: 600;
+}
+.saturation06{
+	font-weight: 700;
+}
+
+.alignment01{
+	text-align: center;
+}
+.alignment02{
+	text-align: left;
+}
+.alignment03{
+	text-align: right;
+}
+.alignment04{
+	text-align: justify;
+}
+
+.design01{
+	text-decoration: overline;
+}
+.design02{
+	text-decoration: line-through;
+}
+.design03{
+	text-decoration: underline;
+}
+
+.shadow{
+	text-shadow: 2px -2px 5px rgba(37, 156, 63, 0.776);
+}
+
+.register01{
+	text-transform: capitalize;
+}
+.register02{
+	text-transform: lowercase;
+}
+.register03{
+	text-transform: uppercase;
+}
+
+.interval{
+	font-size: 20px;
+	line-height: 3;
+}
+
+.retreat{
+	text-indent: 30px;
+}
+
+.between{
+	letter-spacing: 20px;
+}
+
+.spaces{
+	white-space: nowrap;
+}
+
+.word{
+	word-spacing: 20px;
+}
