@@ -1,0 +1,169 @@
+
+@import url("reset.css");
+
+.conteiner {
+	font-family: "Poppins", sans-serif;
+}
+
+.titel,
+.title__second {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	color: #212529;
+}
+.text {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.8;
+	color: #6C757D;
+}
+
+
+
+
+.conteiner {
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+.block__one {
+	max-width: 816px;
+	margin: 0 auto;
+}
+
+.titel {
+	max-width: 400px;
+	margin-bottom: 40px;
+}
+
+.text{
+	margin-bottom: 80px
+}
+.paragraf {
+	margin-bottom: 23px;
+}
+
+.image {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+.block__two {
+	max-width: 816px;
+	margin: 0 auto;
+}
+.title__second {
+	max-width: 605px;
+	margin-bottom: 35px;
+}
+.left {
+	margin-right: 30px;
+}
+.image{
+	font-size: 0;
+	margin-bottom: 80px;
+}
+.left{
+	margin-right: 30px;
+	max-width: 100%
+}
+.lake{
+	max-width: 100%
+}
+
+.block__three {
+	max-width: 816px;
+	margin: 0 auto;
+}
+
+
+
+/*                  "practice"                         */
+
+/* Відступи */
+.internal__01{
+	padding: 10px 50px 30px 70px;
+	background-color: #77608d;
+}
+.internal__02{
+	padding-left: 20%;
+	padding-top: 20%;
+	background-color: #0a74a2;
+}
+.inline-block01{
+	padding: 20px;
+	background-color: #77608d;
+}
+.internal__03{
+	margin: 10px 0px 10px -20px;
+	background-color: #0a74a2;
+}
+/*                  Схлопування margin.                   */
+.internal__04{
+	margin-bottom: 20px;
+	background-color: #0a74a2;
+}
+.internal__05{
+	margin-top: 30px;
+	background-color: #6aa20a;
+}
+.internal__06{
+	width: 300pt;
+	background-color: #77608d;
+}
+.internal__07{
+	max-width: 300pt;
+	background-color: #0a74a2;
+	
+}
+.internal__08{
+	min-width: 300px;
+	background-color: #6aa20a;
+	
+}
+.inline-block02{
+	max-width: 100%;
+}
+.internal__09{
+	height: 50px;
+	overflow: scroll;
+	background-color: #230aa2;
+}
+.inline-block03{
+	vertical-align: middle;
+}
+.internal__10{
+	display: block;
+	margin: 20px;
+	padding: 10px;
+	background-color: #230aa2;
+}
+
+.internal__12,
+.internal__12 {
+	margin-bottom: 10px;
+}
+/* 
+Переводимо рядковий об'єкт A в блочно-рядковий
+тоді об'єкт почне займати простір в залежності 
+від контенту в ньому та це дозволить застосувати 
+зовнішній відступ (margin-bottom)
+*/
+.link {
+	color: yellow;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+/* Фантомні (рядкові) відступи */
+.list {
+	font-size: 0;
+}
+.list__item {
+	font-size: 16px;
+	display: inline-block;
+	background-color: #09c35c;
+	padding: 15px;
+}
