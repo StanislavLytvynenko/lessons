@@ -1,0 +1,116 @@
+
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+body{
+	font-family: "Poppins", sans-serif;
+	color: #6C757D;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+[class*="__conteine"]{
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.article {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.article__text-block {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+.article__text-block p{
+	line-height: 1.78;
+	margin-bottom: 30px;
+}
+
+.article__text {
+	color: #212529;
+	font-size: 25px;
+	line-height: 1.6;
+	margin-bottom: 40px;
+	font-weight: 700;
+	max-width: 605px;
+}
+.article__imge {
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+.article__imges {
+	font-size: 0;
+}
+
+.article__imge_1 {
+	margin-right: 30px;
+}
+
+.wide {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+/*                       practice                            */
+
+.practice__title {
+	font-size: 60px;
+	font-weight: 700;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.block01 {
+	border-bottom: 0.5px solid;
+	margin-bottom: 40px;
+}
+.block01 a {
+	border-bottom: 0.5px dashed red;
+}
+
+.block02 {
+	outline:5px solid;
+	margin-bottom: 40px;
+}
+.practice__imge {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-bottom: 40px;
+	box-shadow: 5px 5px 10px 0px black;
+}
+.block03{
+	box-shadow: inset 5px 5px 10px 0px black;
+}
+
+.block04 {
+	visibility: hidden;
+}
+
+.block05 {
+	opacity: 0.5;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px;
+	background: white;
+	color: #6C757D;
+	border-radius: 15px;
+	border: 3px solid #6C757D;
+	box-shadow: 0 5px 0 0 black;
+	margin-bottom: 20px;
+	position: relative;
+	top: 0;
+	transition: all 0.3s;
+}
+.button:hover {
+	top: 3px;
+	box-shadow: 0 2px 0 0 black;
+
+}
